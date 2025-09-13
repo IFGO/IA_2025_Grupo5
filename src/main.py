@@ -20,7 +20,7 @@ from rich.table import Table
 
 from src.data_load import load_crypto_data
 from src.features import criar_features_basicas_completas
-from src.models import train_mlp, train_linear, encontrar_melhor_grau_polinomial, validacao_cruzada_kfold
+from src.models import train_mlp, train_linear, encontrar_melhor_grau_polinomial, validacao_cruzada_kfold, treinar_regressao_polinomial
 from src.lucro import calcular_lucro_investimento, calcular_estrategia_buy_and_hold
 from src.analise_lucro import imprimir_metricas_modelo, comparar_todos_modelos, mostrar_equacao_linear
 from src.statistics.analysis import compare_dispersion, summary_statistics, teste_hipotese_retorno, anova_entre_criptos, anova_grupos_caracteristicas
